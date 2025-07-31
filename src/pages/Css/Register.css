@@ -1,0 +1,107 @@
+/* Base page styling */
+.register-page-container {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register-page-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+/* Form wrapper */
+.register-form-wrapper {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Form layout */
+.register-form-title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #111827;
+  text-align: center;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-label {
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  color: #374151;
+}
+
+.register-input {
+  padding: 10px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.register-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}
+
+.register-button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #3b82f6;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-button:hover {
+  background-color: #2563eb;
+}
+
+.register-button:disabled {
+  background-color: #93c5fd;
+  cursor: not-allowed;
+}
+
+/* Messages */
+.error-message {
+  color: #dc2626;
+  font-weight: 500;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.success-message {
+  color: #16a34a;
+  font-weight: 500;
+  margin-top: 12px;
+  text-align: center;
+}
+
+/* Logged-in message */
+.already-registered-message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #6b7280;
+  padding: 40px;
+}

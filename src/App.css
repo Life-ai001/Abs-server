@@ -1,0 +1,26 @@
+/* Fullscreen layout for login */
+
+.no-layout {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: #f0f4f8; /* optional, for better visual on mobile */
+  overflow-y: auto;
+}
+
+
+/* Default layout for all other pages */
+.default-layout {
+  max-width: 1280px;
+  margin: 2rem auto;
+  padding: 3rem 2rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9fb;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.05);
+}
